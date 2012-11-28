@@ -33,8 +33,8 @@ include_directories(
 # source files. In this case the source files will be compiled into a
 # binary named tests
 add_executable(project7.out
-  bubbleSort.cpp
-  quikSort.cpp
+  bubbleSort.hpp
+  #quikSort.cpp
   prog7.cpp
 )
 
