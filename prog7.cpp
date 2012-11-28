@@ -1,5 +1,6 @@
 //#include "bubbleSort.hpp"
-#include "selectionSort.hpp"
+//#include "selectionSort.hpp"
+#include "insertionSort.hpp"
 
 #include <iostream>
 #include <stdlib.h>
@@ -30,7 +31,12 @@ int main()
 	
 	// Bubble sort
 	//////bubbleSort(data, size, numComps, numSwaps);
-	selectionSort(data, size, numComps, numSwaps);
+	
+	// Selection sort
+	//////selectionSort(data, size, numComps, numSwaps);
+	
+	// Insertion Sort
+	insertionSort(data, size, numComps, numSwaps);
 	
 	
 	
