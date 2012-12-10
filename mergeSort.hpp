@@ -37,7 +37,7 @@ void merge(int values[], int start, int mergeSize, int size, int &swaps, int &co
 
 void mergeSort(int size, int values[], int &swaps, int &comps)
 {
-	int mergeSize=2, start=0, i=0, midPoint=0;
+	int mergeSize=2, i=0, midPoint=0;
 	int lastSize=0;
 	while(mergeSize < size) // loop by powers of 2
 	{

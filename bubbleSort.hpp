@@ -1,7 +1,10 @@
 #ifndef BUBBLESORT_HPP
 #define BUBBLESORT_HPP
 
-void swap( int &a, int &b )
+#include <iostream>
+using namespace std;
+
+void swapbubb( int &a, int &b )
 {
 	int tmp = a;
 	a = b;
@@ -15,7 +18,7 @@ void bubbleUp( int values[], int startIndex, int endIndex, int &comps, int &swap
 	{
 		if( values[index] < values[index-1] )
 		{
-			swap(values[index], values[index-1]);
+			swapbubb(values[index], values[index-1]);
 			swaps++;
 			sorted=false;
 		}

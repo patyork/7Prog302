@@ -1,7 +1,7 @@
 #ifndef SELECTIONSORT_HPP
 #define SELECTIONSORT_HPP
 
-void swap( int &a, int &b )
+void swapsel( int &a, int &b )
 {
 	int tmp = a;
 	a = b;
@@ -30,7 +30,7 @@ void selectionSort( int values[], int numValues, int &comps, int &swaps )
 	
 	for( int current=0; current<endIndex; current++ )
 	{
-		swap( values[current], values[minIndex(values, current, endIndex, comps)] );
+		swapsel( values[current], values[minIndex(values, current, endIndex, comps)] );
 		swaps++;
 	}
 }

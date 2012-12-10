@@ -1,0 +1,3 @@
+As expected, the more advanced sorting algorithms proved to be magnitudes better than the less advanced sorting algorithms. In fact, when you run the program, you will see that the number of swaps performed by the Bubble Sort algorithm on the 100,000 integer data set overflows the 'int' data type.
+
+The clock functions do not work well on the ECC computers (without using C++11), so I was not able to get that functionality to work.
